@@ -49,7 +49,7 @@ section ul li{
     width: 100%;
     height: 580px;
     background:#fafafa;
-    margin-bottom: 12px;
+    /*margin-bottom: 12px;*/
     overflow: hidden;
 }
 .iPhoneX h1{
@@ -87,9 +87,10 @@ section ul li{
     width: 100%;
     height:  580px;
     background: url("../img/MacBook_large.jpg") no-repeat center;
-    background-size: 2560px 624px;
+    /*background-size: 2560px 624px;*/
     display: block;
     overflow: hidden;
+    margin-top: 12px;
 }
 .macbook h1{
     /*font-size: 41px;*/
@@ -106,55 +107,238 @@ section ul li{
     font-weight: normal;
 }
 .macbook h3 {
-    font-size: 17px;
-    line-height: 41px;
+    /*font-size: 17px;*/
+    /*line-height: 41px;*/
     color: #ffffff;
     text-align: center;
     font-weight: normal;
 }
 /*列表结束*/
 /*六宫格开始*/
+.six ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
 .list{
     /*width: 50%;*/
     /*height:592px;*/
     /*background:url("../img/iphone_x_a11_large.jpg") no-repeat center;*/
-    /*border-bottom: 12px solid #ffffff;*/
-    /*border-left: 12px solid #ffffff;*/
-    /*border-right: 6px solid #ffffff;*/
-    /*box-sizing: border-box;*/
-    /*background-size: 1262px 580px;*/
-    float: left;
+    border-bottom: 12px solid #ffffff;
+    box-sizing: border-box;
 }
-/*.list:nth-child(2n){*/
-    /*border-left:6px solid #ffffff;*/
-    /*border-right: 12px solid #ffffff;*/
-/*}*/
-/*.list a{*/
-    /*!*width: 100%;*!*/
-    /*!*height: 100%;*!*/
-    /*!*display: block;*!*/
-/*}*/
-/*.list h1{*/
+.list a{
+    /*width: 100%;*/
+    height: 100%;
+    display: block;
+}
+.list h1{
     /*font-size: 33px;*/
-    /*color: #ffffff;*/
+    color: #ffffff;
     /*line-height:47px;*/
-    /*text-align: center;*/
-    /*margin-top: 400px;*/
-    /*display: block;*/
-/*}*/
-/*.list h2{*/
+    text-align: center;
+    margin-top: 400px;
+    display: block;
+}
+.list h2{
     /*font-size: 17px;*/
     /*line-height: 39px;*/
-    /*color: #ffffff;*/
-    /*text-align: center;*/
-/*}*/
-/*.list h3{*/
-    /*font-size: 14px;*/
-    /*line-height: 37px;*/
-    /*color: #ffffff;*/
-    /*text-align: center;*/
-/*}*/
+    color: #ffffff;
+    text-align: center;
+}
+.list h3{
+    color: #ffffff;
+    text-align: center;
+}
 /*六宫格结束*/
+footer{
+    width: 100%;
+    height: 468px;
+    background:#f2f2f2;
+    overflow: hidden;
+}
+.foot_n{
+    /*background: red;*/
+    height:293px;
+    margin: 40px auto;
+}
+.foot_n li{
+    width: 20%;
+    height:293px;
+    float: left;
+}
+.foot_n li h1{
+    font-size: 10px;
+    color:#333333;
+}
+.foot_n li a{
+    font-size: 9px;
+    color: #696464;
+    line-height: 25px;
+    display: flex;
+}
+.jiaoyu{
+    margin-top: 30px;
+}
+.address{
+    width: 980px;
+    margin:0 auto;
+    /*background: yellow;*/
+    position: relative;
+}
+.top{
+    /*height: 26px;*/
+    /*background: #0070c9;*/
+    border-bottom:1px solid #d6d6d6;
+}
+.bottom{
+    width: 100%;
+    /*background: red;*/
+    float: left;
+    margin-top: 9px;
+}
+.china{
+    height: 16px;
+    /*background: aqua;*/
+    float:right;
+    position: absolute;
+    top:25px;
+    right:0;
+}
+.style{
+    height: 10px;
+    font-size: 10px;
+    color: #888888;
+    float: left;
+}
+.store{
+    height: 10px;
+    font-size:10px;
+    color: #0080d4;
+    margin-left: 4px;
+    float: left;
+}
+.phone{
+    height: 10px;
+    font-size: 10px;
+    color:#888888;
+    float: left;
+}
+.sale{
+    height: 10px;
+    font-size: 10px;
+    color: #0080d4;
+}
+.bottom_1{
+    height: 12px;
+    font-size: 12px;
+    color:#888888;
+    float: left;
+}
+.image{
+    height: 16px;
+    font-size: 10px;
+    color:#555555;
+    border-right: 1px solid #d6d6d6;
+    padding-right: 10px;
+    padding-left: 11px;
+    float: left;
+}
+.image_r{
+    border-right: none;
+}
+.number{
+    height: 24px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 24px;
+    margin-top:20px;
+}
+.china img{
+    height: 16px;
+    margin-right:5px;
+    margin-top: 9px;
+    float: left;
+}
+.word{
+    height: 10px;
+    font-size: 10px;
+    color: #555555;
+    margin-right:0;
+    float: left;
+    margin-top: 10px;
+}
+/*手机端开始*/
+footer .star{
+    width: 100%;
+    height: 445px;
+    /*background: lime;*/
+}
+.star_top{
+    width: 100%;
+    height: 280px;
+    /*background: orange;*/
+    overflow: hidden;
+}
+.toop{
+    padding-left:0;
+}
+.star_bottom{
+    width: 100%;
+    height: 144px;
+    /*background: burlywood;*/
+    margin-top: 20px;
+    position: relative;
+}
+.listbox{
+    width: 100%;
+    height:37px;
+    /*background: lightskyblue;*/
+    display: block;
+    font-size: 10px;
+    color: #333333;
+    line-height: 37px;
+    border-bottom: 1px solid #d6d6d6;
+    /*margin-top: 21px;*/
+}
+.listbox_n{
+    margin-top: 0;
+}
+.plus{
+    height: 8px;
+    font-size: 8px;
+    color: #333333;
+    float: right;
+    margin-top:10px;
+    margin-right: 20px;
+}
+.chinese{
+    width: 100%;
+    height: 16px;
+    margin-top: 17px;
+    color: #555555;
+}
+.title{
+    width: 100%;
+    height: 12px;
+    color: #888d92;
+    margin-top: 20px;
+}
+.image_t{
+    margin-top: 15px;
+}
+.image_l{
+    padding-left: 0;
+}
+.num{
+    width: 100%;
+    height: 10px;
+    font-size: 10px;
+    color: #999999;
+    position: absolute;
+    bottom: 10px;
+}
+/*手机端结束*/
 /*>1024*/
 @media screen and (min-width: 1024px){
     main{
@@ -163,63 +347,43 @@ section ul li{
     nav ul{
         width: 976px;
     }
-    /*.max{*/
-       /*display: block;*/
-    /*}*/
+    .max{
+    display: block;
+    }
     .min{
         display: none;
     }
     .iPhoneX h1{
         font-size: 40px;
-        color: #111111;
         line-height: 60px;
         margin-top: 86px;
-        text-align: center;
     }
     .iPhoneX h2{
         font-size:22px;
-        color: #111111;
         line-height:44px;
-        text-align: center;
-        font-weight: normal;
     }
     .iPhoneX h3{
         font-size: 18px;
-        color: #0070c9;
         line-height: 42px;
-        text-align: center;
-        font-weight: normal;
     }
     .bigiphone{
         width: 1068px;
         height: 337px;
         background: url("../img/iphone_x_large.jpg") no-repeat center;
         margin-top: 11px;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
     }
     .macbook h1{
         font-size: 41px;
-        color: #ffffff;
         line-height: 63px;
-        text-align: center;
         margin-top: 58px;
     }
     .macbook h2{
         font-size: 22px;
-        color: #ffffff;
         line-height: 46px;
-        text-align: center;
-        font-weight: normal;
     }
     .macbook h3 {
         font-size: 17px;
         line-height: 41px;
-        color: #ffffff;
-        text-align: center;
-        font-weight: normal;
     }
     .macbook {
         width: 100%;
@@ -229,23 +393,16 @@ section ul li{
     }
     .list h1{
         font-size: 33px;
-        color: #ffffff;
         line-height:47px;
-        text-align: center;
         margin-top: 400px;
-        display: block;
     }
     .list h2{
         font-size: 17px;
         line-height: 39px;
-        color: #ffffff;
-        text-align: center;
     }
     .list h3{
         font-size: 14px;
         line-height: 37px;
-        color: #ffffff;
-        text-align: center;
     }
     .list{
         width: 50%;
@@ -254,16 +411,43 @@ section ul li{
         border-bottom: 12px solid #ffffff;
         border-left: 12px solid #ffffff;
         border-right: 6px solid #ffffff;
-        box-sizing: border-box;
         background-size: 1262px 580px;
     }
     .list:nth-child(2n){
         border-left:6px solid #ffffff;
         border-right: 12px solid #ffffff;
     }
+    .foot_n{
+        width: 980px;
+    }
+    .foot_n li{
+        height:293px;
+    }
+    .foot_n li h1{
+        font-size: 10px;
+    }
+    .foot_n li a{
+        font-size: 9px;
+        line-height: 25px;
+    }
+    .jiaoyu{
+        margin-top: 30px;
+    }
+    .address{
+        height: 133px;
+    }
+    .top{
+        height: 26px;
+    }
+    .bottom{
+        height: 47px;
+    }
+    .star{
+          display: none;
+    }
 }
 /*<1024*/
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px){
     main {
         padding-right: 22px;
     }
@@ -272,6 +456,9 @@ section ul li{
     }
     .max {
         display: block;
+    }
+    .min{
+        display: none;
     }
     .iPhoneX h1 {
         font-size: 32px;
@@ -309,46 +496,72 @@ section ul li{
         line-height: 38px;
     }
     .macbook{
-        width: 100%;
         height:  569px;
         background: url("../img/MacBook_medium.jpg") no-repeat center;
-        background-size: 1068px 617px;
+        /*background-size: 1068px 617px;*/
     }
     .list h1{
         font-size: 27px;
-        color: #ffffff;
         line-height:37px;
-        text-align: center;
         margin-top: 321px;
         /*display: block;*/
     }
     .list h2{
         font-size: 16px;
         line-height: 32px;
-        color: #ffffff;
-        text-align: center;
     }
     .list h3{
         font-size: 14px;
         line-height: 24px;
-        color: #ffffff;
-        text-align: center;
     }
     .list{
         width: 50%;
         height:490px;
         background:url("../img/iphone_x_a11_medium.jpg") no-repeat center;
-        border-bottom: 12px solid #ffffff;
+        background-size: 516px 490px;
         border-left: 12px solid #ffffff;
         border-right: 6px solid #ffffff;
-        box-sizing: border-box;
-        background-size: 516px 490px;
     }
     .list:nth-child(2n){
         border-left:6px solid #ffffff;
-        border-right: 12px solid #ffffff;
+        border-right:12px solid #ffffff;
+    }
+    .footer{
+        height: 316px;
+        padding: 0 20px;
+    }
+    .foot_n{
+        padding: 0 20px;
+    }
+    .foot_n li{
+        width: 20%;
+        height:309px;
+    }
+    .foot_n li h1{
+        font-size: 10px;
+    }
+    .foot_n li a{
+        font-size: 9px;
+        line-height: 25px;
+    }
+    .jiaoyu{
+        margin-top: 24px;
+    }
+    .address{
+        height: 93px;
+        padding: 0 16px;
+    }
+    .top{
+        height: 22px;
+    }
+    .bottom{
+        height: 35px;
+    }
+    .star{
+        display: none;
     }
 }
+/*<768*/
 @media screen and (max-width: 768px) {
     .min {
         display: block;
@@ -397,41 +610,46 @@ section ul li{
     }
     .macbook{
         width: 100%;
-        height:  568px;
+        height:568px;
         background: url("../img/MacBook_small.jpg") no-repeat center;
         background-size: 1068px 617px;
     }
     .list h1{
         font-size: 27px;
-        color: #ffffff;
         line-height:37px;
-        text-align: center;
         margin-top: 363px;
-        display: block;
     }
     .list h2{
         font-size: 16px;
         line-height: 26px;
-        color: #ffffff;
-        text-align: center;
     }
     .list h3{
         font-size: 14px;
         line-height: 30px;
-        color: #ffffff;
-        text-align: center;
     }
     .list{
         width: 100%;
         height:500px;
         background:url("../img/iphone_x_a11_small.jpg") no-repeat center;
         border-bottom: 12px solid #ffffff;
-        /*border-left: 12px solid #ffffff;*/
-        /*border-right: 6px solid #ffffff;*/
-        /*box-sizing: border-box;*/
-        background-size: 736px 548px;
+        box-sizing: border-box;
+        /*background-size: 736px 548px;*/
     }
-    .list:nth-child(2n){
-        border: none;
+    .list:nth-child(n){
+        border-left: 0;
+        border-right:0;
+    }
+    .star{
+        display: block;
+        /*padding-left: 17px;*/
+    }
+    .star_top{
+        margin-left: 17px;
+    }
+    .star_bottom{
+        margin-left: 17px;
+    }
+    footer{
+        display: none;
     }
 }
